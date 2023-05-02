@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="222dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="104dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Lista de Questões"
+        android:textColor="#8b008b"
+        android:textSize="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/quest1"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/bt"
+        android:text="Questão 1"
+        android:textColor="#7a297a"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toStartOf="@+id/quest2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/quest2"
+        android:layout_width="125dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/bt"
+        android:text="Questão 2"
+        android:textColor="#7a297a"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/quest3"
+        android:layout_width="124dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/bt"
+        android:text="Questão 3"
+        android:textColor="#7a297a"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/quest5"
+        app:layout_constraintEnd_toStartOf="@+id/quest4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/quest1" />
+
+    <Button
+        android:id="@+id/quest4"
+        android:layout_width="130dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/bt"
+        android:text="Questão 4"
+        android:textColor="#7a297a"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/quest6"
+        app:layout_constraintEnd_toEndOf="@+id/quest2" />
+
+    <Button
+        android:id="@+id/quest5"
+        android:layout_width="122dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/bt"
+        android:text="Questão 5"
+        android:textColor="#7a297a"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/quest7"
+        app:layout_constraintEnd_toStartOf="@+id/quest6"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/quest3" />
+
+    <Button
+        android:id="@+id/quest6"
+        android:layout_width="126dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/bt"
+        android:text="Questão 6"
+        android:textColor="#7a297a"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/quest7"
+        app:layout_constraintEnd_toEndOf="@+id/quest4" />
+
+    <Button
+        android:id="@+id/quest7"
+        android:layout_width="127dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="152dp"
+        android:background="@drawable/bt"
+        android:text="Questão 7"
+        android:textColor="#7a297a"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
